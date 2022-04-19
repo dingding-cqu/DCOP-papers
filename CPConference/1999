@@ -1,0 +1,77 @@
+The Rough Guide to Constraint Propagation
+
+Non-binary Constraints
+
+The Theory of Discrete Lagrange Multipliers for Nonlinear Discrete Optimization
+
+Operational Equivalence of CHR Programs and Constraints
+
+Automatic Generation of Constraint Propagation Algorithms for Small Finite Domains
+
+Excluding Symmetries in Constraint Based Search
+
+On Forward Checking for Non-binary Constraint Satisfaction
+
+Enforcing Arc Consistency on Global Constraints by solving subCSPs on the Fly
+
+Exploiting Bipartiteness to Identify Yet Another Tractable Subclass of CSP
+
+Towards a Complete Classification of Tractability in Point Algebras for Nonlinear Time
+
+A Meta-Heuristic Factory for Vehicle Routing Problems
+
+Closure Functions and Width 1 Problems
+
+An Overview of HAL Cost-Based Domain Filtering
+
+Resource Allocation in Networks Using Abstraction and Constraint Satisfaction Techniques
+
+Optimal Distributed Arc-Consistency
+
+The Goldilocks Problem
+
+Multistep Filtering Operators for Ordinary Differential Equations
+
+A Framework for Constraint Programming Based Column Generation
+
+Improving a Heuristic Repair Method for Large-Scale School Timetabling Problems
+
+Applying Constraint Programming to Protein Structure Determination
+
+Partition-Based Lower Bound for Max-CSP
+
+Constraint Diagram Reasoning
+
+Automatic Generation of Music Programs
+
+Search Procedures and Parallelism in Constraint Programming
+
+Ensuring a Relevant Visiting Order of the Leaf Nodes during a Tree Search
+
+Tight Cooperation and its Application in Piecewise Linear Optimization
+
+Arc Consistency for Global Cardinality Constraints with Costs
+
+The Br´elaz Heuristic and Optimal Static Orderings
+
+A Fixpoint Definition of Dynamic Constraint Satisfaction
+
+Solving Satisfiability Problems on FPGAs Using Experimental Unit Propagation
+
+On the Behavior and Application of Constraint Weighting
+
+Simulated Annealing with Asymptotic Convergence for Nonlinear Constrained Global Optimization On SAT01 Problem
+
+An Interval Constraint Approach to Handle Parametric Ordinary Differential Equations for Decision Support
+
+CSPLib: A Benchmark Library for Constraints
+
+Validated Constraint Compilation .
+
+Automated Theorem Proving with Disjunctive Constraints
+
+Rewriting Numeric Constraint Satisfaction Problems for Consistency Algorithms
+
+Intelligent Domain Splitting for CSPs with Ordered Domains
+
+Frequency Assignment for Cellular Mobile Systems Using Constraint Satisfaction Techniques
