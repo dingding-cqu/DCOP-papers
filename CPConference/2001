@@ -1,0 +1,167 @@
+Hybrid Benders Decomposition Algorithms in Constraint Logic Programming
+
+Branch-and-Check: A Hybrid Framework Integrating Mixed Integer Programming and Constraint Logic Programming
+
+Towards Inductive Constraint Solving
+
+Collaborative Learning for Constraint Solving
+
+Towards Stochastic Constraint Programming: A Study of Online Multi-choice Knapsack with Deadlines
+
+Global Cut Framework for Removing Symmetries
+
+Symmetry Breaking
+
+The Non-existence of (3,1,2)-Conjugate Orthogonal Idempotent Latin Square of Order 10
+
+Random 3-SAT and BDDs: The Plot Thickens Further
+
+Capturing Structure with Satisfiability
+
+Phase Transitions and Backbones of 3-SAT and Maximum 3-SAT
+
+Solving Non-binary CSPs Using the Hidden Variable Encoding
+
+A Filtering Algorithm for the Stretch Constraint
+
+Network Flow Problems in Constraint Programming
+
+Pruning for the Minimum Constraint Family and for the Number of Distinct Values Constraint Family
+
+A Constraint Programming Approach to the Stable Marriage Problem
+
+Components for State Restoration in Tree Search
+
+Adaptive Constraint Handling with CHR in Java
+
+Consistency Maintenance for ABT
+
+Constraint-Based Verification of Client-Server Protocols
+
+A Temporal Concurrent Constraint Programming Calculus
+
+Lower Bounds for Non-binary Constraint Optimization Problems
+
+New Lower Bounds of Constraint Violations for Over-Constrained Problems
+
+A General Scheme for Multiple Lower Bound Computation in Constraint Optimization
+
+Solving Disjunctive Constraints for Interactive Graphical Applications
+
+Sweep as a Generic Pruning Technique Applied to the Non-overlapping Rectangles Constraint .
+
+Non-overlapping Constraints between Convex Polytopes
+
+Formal Models of Heavy-Tailed Behavior in Combinatorial Search
+
+The Phase Transition of the Linear Inequalities Problem
+
+In Search of a Phase Transition in the AC-Matching Problem
+
+Specific Filtering Algorithms for Over-Constrained Problems
+
+Specializing Russian Doll Search
+
+A CLP Approach to the Protein Side-Chain Placement Problem
+
+Fast, Constraint-Based Threading of HP-Sequences to Hydrophobic Cores One Flip per Clock Cycle
+
+Solving Constraints over Floating-Point Numbers
+
+Optimal Pruning in Parametric Differential Equations
+
+Interaction of Constraint Programming and Local Search for Optimisation Problems
+
+Partition-k-AC: An Efficient Filtering Technique Combining
+
+Domain Partition and Arc Consistency
+
+Neighborhood-Based Variable Ordering Heuristics for the Constraint Satisfaction Problem
+
+The Expressive Power of Binary Linear Programming
+
+Constraint Generation via Automated Theory Formation
+
+The Traveling Tournament Problem Description and Benchmarks
+
+Deriving Explanations and Implications for Constraint Satisfaction Problems
+
+Generating Tradeoffs for Interactive Constraint-Based Configuration
+
+Structural Constraint-Based Modeling and Reasoning with Basic Configuration Cells .
+
+Composition Operators for Constraint Propagation: An Application to Choco
+
+Solving Boolean Satisfiability Using Local Search Guided by Unit Clause Elimination
+
+GAC on Conjunctions of Constraints
+
+Dual Models of Permutation Problems
+
+Boosting Local Search with Artificial Ants
+
+Fast Optimal Instruction Scheduling for Single-Issue Processors with Arbitrary Latencies
+
+Evaluation of Search Heuristics for Embedded System Scheduling Problems
+
+Interpreting Sloppy Stick Figures with Constraint-Based Subgraph Matching
+
+Selecting and Scheduling Observations for Agile Satellites: Some Lessons from the Constraint Reasoning Community Point of View
+
+A Dynamic Distributed Constraint Satisfaction Approach to Resource Allocation
+
+A Constraint Optimization Framework for Mapping a Digital Signal Processing Application onto a Parallel Architecture
+
+iOpt: A Software Toolkit for Heuristic Search Methods
+
+AbsCon: A Prototype to Solve CSPs with Abstraction
+
+A Constraint Engine for Manufacturing Process Planning
+
+On the Dynamic Detection of Interchangeability in Finite Constraint Satisfaction Problems
+
+Automatic Generation of Implied Clauses for SAT
+
+Verification of Infinite-State Systems by Specialization of CLP Programs
+
+Partially Ordered Constraint Optimization Problems
+
+Translations for Comparing Soft Frameworks
+
+Counting Satisfiable k-CNF Formulas
+
+High-Level Modelling and Reformulation of Constraint Satisfaction Problems
+
+Distributed Constraint Satisfaction as a Computational Model of Negotiation via Argumentation
+
+Aircraft Assignment Using Constraint Programming
+
+Labelling Heuristics for CSP Application Domains
+
+Improving SAT Algorithms by Using Search Pruning Techniques
+
+Optimum Symmetry Breaking in CSPs Using Group Theory
+
+Distributed Dynamic Backtracking
+
+Constraint Programming for Distributed Resource Allocation
+
+Exploiting the CSP Structure by Interchangeability
+
+Constraint Processing Techniques for Model-Based Reasoning about Dynamic Systems
+
+Distributed Constraint Satisfaction with Cooperating Asynchronous Solvers
+
+Building Negative Reduced Cost Paths Using Constraint Programming
+
+An Incremental and Non-binary CSP Solver: The Hyperpolyhedron Search Algorithm
+
+Partial Stable Generated Models of Generalized Logic Programs with Constraints .
+
+Heterogeneous Constraint Problems (An Outline of the Field of Work
+
+Comparing SAT Encodings for Model Checking
+
+Asynchronous Search for Numeric DisCSPs
+
+Temporal Concurrent Constraint Programming
