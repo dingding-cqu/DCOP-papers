@@ -1,0 +1,223 @@
+Search and Inference in AI Planning
+
+OWL: A Description Logic Based Ontology Language
+
+Preference Reasoning
+
+The G12 Project: Mapping Solver Independent Models to Efficient Solutions
+
+Symmetry Definitions for Constraint Satisfaction Problems
+
+Dynamic Ordering for Asynchronous Backtracking on DisCSPs
+
+Incremental Algorithms for Local Search from Existential Second-Order Logic
+
+Inter-distance Constraint: An Extension of the All-Different Constraint for Scheduling Equal Length Jobs
+
+Mind the Gaps: A New Splitting Strategy for Consistency Techniques
+
+Graph Invariants as Necessary Conditions for Global Constraints
+
+Allocation and Scheduling for MPSoCs via Decomposition and No-Good Generation
+
+Sub-optimality Approximations
+
+A Linear-Logic Semantics for Constraint Handling Rules
+
+Distributed Stable Matching Problems
+
+Beyond Hypertree Width: Decomposition Methods Without Decompositions
+
+Ad-hoc Global Constraints for Life
+
+Tractable Clones of Polynomials over Semigroups
+
+CP(Graph): Introducing a Graph Computation Domain in Constraint Programming
+
+Interval Analysis in Scheduling Assumption-Based Pruning in Conditional CSP
+
+Conditional Symmetry Breaking
+
+Symmetry and Consistency
+
+Solving the MOLR and Social Golfers Problems
+
+Advances in Polytime Isomorph Elimination for Configuration
+
+Planning and Scheduling to Minimize Tardiness
+
+Search Heuristics and Heavy-Tailed Behaviour
+
+2 -Way vs. d-Way Branching for CSP
+
+Maintaining Longest Paths in Cyclic Graphs
+
+Applying Constraint Programming to Rigid Body Protein Docking
+
+Maximum Constraint Satisfaction on Diamonds
+
+Exploiting Unit Propagation to Compute Lower Bounds in Branch and Bound Max-SAT Solvers
+
+Generalized Conflict Learning for Hybrid Discrete/Linear Optimization
+
+Parallel Local Search in Comet
+
+Generating Corrective Explanations for Interactive Constraint Satisfaction
+
+SPREAD: A Balancing Constraint Based on Statistics
+
+Automatic Detection of Variable and Value Symmetries
+
+Breaking All Value Symmetries in Surjection Problems
+
+AC-*: A Configurable, Generic and Adaptive Arc Consistency Algorithm
+
+Maintaining Arc Consistency Algorithms During the Search Without Additional Space Cost
+
+Weak Composition for Qualitative Spatial and Temporal Reasoning
+
+Boosting Distributed Constraint Satisfaction
+
+Depth-First Mini-Bucket Elimination
+
+Using SAT in QBF
+
+Tree Decomposition with Function Filtering
+
+On Solving Soft Temporal Constraints Using SAT Techniques
+
+Eplex: Harnessing Mathematical Programming Solvers for Constraint Logic Programming
+
+Caching Search States in Permutation Problems
+
+Repair-Based Methods for Quantified CSPs
+
+Handling Implication and Universal Quantification Constraints in FLUX
+
+Solving Simple Planning Problems withMore Inference and No Search
+
+Solving Large-Scale Nonlinear Programming Problems by Constraint Partitioning
+
+Factor Analytic Studies of CSP Heuristics
+
+Lookahead Saturation with Restriction for SAT
+
+Evolving Variable-Ordering Heuristics for Constrained Optimisation
+
+Multi-point Constructive Search
+
+Bounds of Graph Characteristics
+
+Acquiring Parameters of Implied Global Constraints
+
+Integrating Benders Decomposition Within Constraint Programming
+
+Using Boolean Constraint Propagation for Sub-clauses Deduction
+
+Extending Systematic Local Search for Job Shop Scheduling Problems Interactive Reconfiguration in Power Supply Restoration
+
+Neighbourhood Clause Weight Redistribution in Local Search for SAT
+
+Computing and Exploiting Tree-Decompositions for Solving Constraint Networks
+
+Encoding Requests to Web Service Compositions as Constraints
+
+Test Instance Generation for MAX 2SAT
+
+Consistency for Quantified Constraint Satisfaction Problems Alternate Modeling in Sport Scheduling
+
+Approximations in Distributed Optimization
+
+Extremal CSPs
+
+Beyond Finite Domains: The All Different and Global Cardinality Constraints
+
+Views and Iterators for Generic Constraint Implementations
+
+Approximated Consistency for the Automatic Recording Problem
+
+Towards an Optimal CNF Encoding of Boolean Cardinality Constraints
+
+Approximate Constrained Subgraph Matching
+
+Distributed Constraints for Large-Scale Scheduling Problems
+
+Solving Over-Constrained Problems with SAT
+
+Solving the Car-Sequencing Problem as a Non-binary CSP
+
+Dimensioning an Inbound Call Center Using Constraint Programming
+
+Methods to Learn Abstract Scheduling Models
+
+Automated Search for Heuristic Functions
+
+Constraint-Based Inference: A Bridge Between Constraint Processing and Probability Inference
+
+Scheduling Social Tournaments
+
+Domain Reduction for the Circuit Constraint
+
+Using Constraint Programming for Solving Distance CSP with Uncertainty
+
+Improved Algorithm for Finding (a,b)-Super Solutions
+
+Local Consistency in Weighted CSPs and Inference in Max-SAT
+
+Modeling Constraint Programs with Software Technology Standards
+
+Solution Equivalent Subquadrangle Reformulations of Constraint Satisfaction Problems
+
+Mechanism Design for Preference Aggregation over Coalitions
+
+LP as a Global Search Heuristic Across Different Constrainedness Regions Consistency for Partially Defined Constraints
+
+Subnet Generation Problem: A New Network Routing Problem Partial Redundant Modeling
+
+AND/OR Branch-and-Bound for Solving Mixed Integer Linear Programming Problems
+
+Weak Symmetries in Problem Formulations Towards the Systematic Generation of Channelling Constraints
+
+AND/OR Search Spaces and the Semantic Width of Constraint Networks
+
+Statistical Modelling of CSP Solving Algorithms Performance Probabilistic Arc Consistency
+
+GOOSE – A Generic Object-Oriented Search Environment
+
+Randomization for Multi-agent Constraint Optimization
+
+Uncertainty in Soft Constraint Problems
+
+Speeding Up Constrained Path Solvers with a Reachability Propagator
+
+From Linear Relaxations to Global Constraint Propagation
+
+Encoding HTN Planning as a Dynamic CSP
+
+Specialised Constraints for Stable Matching Problems
+
+Bounds-Consistent Local Search
+
+Robust Constraint Solving Using Multiple Heuristics
+
+Scheduling with Uncertain Start Dates
+
+The Role of Redundant Clauses in Solving Satisfiability Problems
+
+Applying Decomposition Methods to Crossword Puzzle Problems
+
+Asymmetric Distributed Constraints Satisfaction Problems
+
+Full Arc Consistency in WCSP and in Constraint Hierarchies with Finite Domains
+
+CoJava: A Unified Language for Simulation and Optimization Programming with T OY(FD)
+
+Computing Super-Schedules
+
+Proterv-II: An Integrated Production Planning and Scheduling System
+
+The Comet Programming Language and System
+
+Random Stimuli Generation for Functional Hardware Verification as a CP Application
+
+A BDD-Based Interactive Configurator for Modular Systems
