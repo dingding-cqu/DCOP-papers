@@ -1,0 +1,305 @@
+分布式约束优化相关资料整理
+Distributed Constraint Optimization Problems (DCOPs)
+
+
+Update date： 2022/04/19
+Machine Learning Research Group
+Chongqing University
+
+
+ 
+目 录
+分布式约束优化相关资料整理	1
+目 录	2
+1 分布式约束优化领域重要期刊和会议	4
+期刊：	4
+会议：	4
+2 DCOP	5
+2.1 DCOP介绍	5
+2.1.1 DCOP	5
+2.1.2 Measurement	5
+2.1.3 Platform	5
+2.2 DCOP算法大体分类	6
+2.3 DCOP完备求解算法	6
+2.3.1 OptAPO	6
+2.3.2 链式结构	6
+2.3.3 树型结构	6
+2.4 DCOP非完备求解算法	7
+2.4.2 Divide-and-Coordinate	7
+2.4.3 局部迭代算法	8
+2.4.4 Confidence bounds	10
+2.4.5 Deep learning-based	10
+2.4.6 Other approaches	10
+3 DCOP Extension	11
+3.1 ADCOP(Asymmetric Distributed Constraint Optimization Problems)	11
+3.1.1 ADCOP算法分类	11
+3.1.2	转换为DCOP问题	11
+3.1.3 ADCOP算法	11
+3.1.4 Others	12
+3.2 Incomplete DCOP	12
+3.3 C-DCOP	12
+4 DCOP Application	12
+4.1 Power System	12
+4.2 Task Scheduling	12
+4.3 Sensor networks	13
+4.4 Traffic management	13
+4.5 Resource management	13
+4.6 Smart home	14
+4.7 Others	14
+5 Books and Theses	14
+5.1 Books	14
+5.2 theses	14
+
+ 
+
+1 分布式约束优化领域重要期刊和会议
+期刊：
+[1] Artificial Intelligence (CCF A)
+[2] Journal of Artificial Intelligence Research (CCF B)
+[3] Autonomous Agents and Multi-Agent Systems (CCF B)
+[4] Constraint (CCF B)
+[5] European Journal of Operational Research
+[6] Computers & Operations Research
+会议：
+[1] IJCAI, International Joint Conference on Artificial Intelligence 
+[2] AAAI, AAAI Conference on Artificial Intelligence
+[3] AAMAS, International Joint Conference on Autonomous Agents and Multi-agent Systems
+[4] ECAI, European Conference on Artificial Intelligence
+[5] CP, International Conference on Principles and Practice of Constraint Programming
+[6] CPAIOR, International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research 
+推荐：http://www.wikicfp.com/cfp/ 注册可跟踪以上会议的最新情况
+
+Follower：Christian Bessiere、Eugene C. Freuder、Jimmy Lee、Peter van Beek、Ferdinando Fioretto、Roie Zivan
+
+
+
+
+2 DCOP 
+2.1 DCOP介绍
+2.1.1 DCOP
+2014, Expert Systems with Applications, Distributed Constraint Optimization Problems: Review and perspectives
+2015, 计算机学报, 分布式约束优化问题研究及其进展
+2016, 软件学报, 分布式约束优化方法研究进展
+2018, JAIR, Distributed Constraint Optimization Problems and Applications: A Survey
+2.1.2 Measurement
+2002, AAMAS, Comparing Performance of Distributed Constraints Processing Algorithms
+2005, AAMAS, Impact of Problem Centralization in Distributed Constraint Optimization Algorithms
+2008, AAMAS, Measuring Distributed Constraint Optimization algorithms in a Real World, Dynamic Problem
+2013, ICAART, Synchronizing for Performance - DCOP algorithms
+2.1.3 Platform
+2007, A framework for simulating and deploying distributed constraint optimization algorithms. 
+2009, IJCAI, FRODO 2.0: An open-source framework for distributed constraint optimization
+2011, DCR, DisChoco 2: A platform for distributed constraint reasoning. 
+AgentZero: https://code.google.com/p/azapi-test/
+我们的DCOPSolver: https://github.com/simpher/DCOPSolver
+2.2 DCOP算法大体分类
+ 
+2.3 DCOP完备求解算法
+2.3.1 OptAPO
+2004, AAMAS, Solving Distributed Constraint Optimization Problems Using Cooperative Mediation
+2008, JAIR, Completeness and performance of the APO algorithm
+2.3.2 链式结构
+1997, CP, Distributed partial constraint satisfaction problem
+2009, JAIR, Asynchronous Forward Bounding for Distributed COPs
+2012, AI, Concurrent forward bounding for distributed constraint optimization problems
+2.3.3 树型结构
+2.3.3.1 基于搜索的完备算法
+2005, AI, ADOPT: asynchronous distributed constraint optimization with quality guarantees
+2006, AAMAS, No-commitment branch and bound search for distributed constraint optimization
+2006, AAAI, An Any-space Algorithm for Distributed Constraint Optimization
+2010, JAIR, BnB-ADOPT: An asynchronous branch-and-bound DCOP algorithm
+2011, IJCAI, Generalizing ADOPT and BnB-ADOPT
+2017, AI Review, BD-ADOPT: a hybrid DCOP algorithm with best-first and depth-first search strategies
+2017, AI, Forward bounding on pseudo-trees for DCOPs and ADCOPs
+2020, AAAI, HS-CAI: A hybrid DCOP algorithm via combining search with context-based inference
+2021, CP, A Bound-Independent Pruning Technique to Speeding up Tree-Based Complete Search Algorithms for Distributed Constraint Optimization Problems
+2.3.3.2 基于推理的完备算法
+（1） DPOP_based (Traditional tree, DFS)
+2004, DCR, A distributed, complete method for multi-agent constraint optimization
+2005, IJCAI, DPOP, A scalable method for multiagent constraint optimization
+2006, AAAI, ODPOP, an algorithm for open/distributed constraint optimization
+2007, IJCAI, MB-DPOP: A New Memory-Bounded Algorithm for Distributed Optimization
+2008, DCR, Asynchronous open DPOP
+2010, DCR, SymDPOP: Adapting DPOP to exploit partial symmetries
+2014, CP, Improving DPOP with branch consistency for solving distributed constraint optimization problems
+2020, AAMAS, RMB-DPOP: Refining MB-DPOP by Reducing Redundant Inference
+（2） DPOP_based (Non-Traditional pseudo-tree)
+2007, AAMAS, A complete distributed constraint optimization method for non-traditional pseudotree arrangements
+2017, Applied Intelligence, An improved DPOP algorithm based on breadth first search pseudo-tree for distributed constraint optimization
+（3）GDL_based
+2009, AAMAS, Generalizing DPOP: Action-GDL, a new complete algorithm for DCOPs
+2011, JAAMAS, Constructing a unifying theory of dynamic programming DCOP algorithms via the generalized distributive law
+2.4 DCOP非完备求解算法
+2005, CP, A-DPOP: Approximations in distributed optimization
+2009, IJCAI, Trading off solution quality for faster computation in DCOP search algorithms
+2.4.2 Divide-and-Coordinate
+2007, 计算机研究与发展, 基于约束图分片求解 DCOP 的 Agent 组织结构
+2008, 计算机研究与发展,自组织分治求解分布式约束优化问题 
+2010, AAMAS, Divide-and-coordinate: DCOPs by agreement
+2010, OptMas, Divide and coordinate by egalitarian utilities: Turning DCOPs into egalitarian worlds
+2013, IJCAI, DeQED: An Efficient Divide-and-Coordinate Algorithm for DCOP
+2.4.3 局部迭代算法
+2.4.3.1  基于消息传递的推理算法
+（1）	GDL
+2000, TIT, The Generalized Distributive Law
+（2）	Max-Sum based
+2008,AAMAS, Decentralised coordination of low-power embedded devices using the max-sum algorithm
+2011, AI, BMS: Bounded approximate decentralised coordination via the max-sum algorithm
+2012, CP, Improved Bounded Max-Sum for distributed constraint optimization
+2012, AAMAS, Max/minsum distributed constraint optimization through value propagation on an alternating DAG
+2014, CP, Decomposing Utility Functions in Bounded Max-Sum for Distributed Constraint Optimization
+2017, OptMAS, Max-sum Revisited; The Real Power of Damping
+2017, AAMAS, An Iterative Refined Max-sum_AD Algorithm via Single-side Value Propagation and Local Search
+2017, JAAMAS, Balancing exploration and exploitation in incomplete Min/Max-sum inference for distributed constraint optimization
+2018, JAAMAS, A class of iterative refined Max-sum algorithms via non-consecutive value propagation strategies
+2018, The Computer Journal, DECIMAXSUM: Using decimation to improve max-sum on cyclic DCOPs
+2018, CP, Balancing asymmetry in max-sum using split constraint factor graphs
+2020, AAAI, Beyond trees: Analysis and convergence of belief propagation in graphs with multiple cycles
+2020, AI, Governing convergence of Max-sum on DCOPs through damping and splitting
+2021, CP, The Effect of Asynchronous Execution and Message Latency on Max-Sum
+（3）	Max-sum 加速
+2018, The Computer Journal, Speeding up GDL-based message passing algorithms for large-scale dcops
+2019, AAAI, A generic approach to accelerating belief propagation based incomplete algorithms for dcops via a branch-and-bound technique
+2021, JAAMAS, Utility distribution matters: enabling fast belief propagation for multi-agent optimization with dense local utility function
+2.4.3.2  基于决策的局部搜索算法
+（1）DSA and DBA based
+2001, An experimental assessment of a stochastic, anytime, decentralized, soft colourer for sparse graphs
+2002, AAAI, Distributed stochastic search for constraint satisfaction and optimization: Parallelism, phase transitions and performance
+2005, AI, The distributed breakout algorithms 
+2005, AI, Distributed stochastic search and distributed breakout: properties, comparison and applications to constraint optimization problems in sensor networks 
+2013, AAAI, Virtual Structure Reduction for Distributed Constraint Problem Solving
+2014, AI, Explorative anytime local search for distributed constraint optimization
+2014, IJCAI, Distributed Breakout: Beyond Satisfaction 
+（2）MGM based
+2004, PDCS, Distributed Algorithms for DCOP: A Graphical-Game-Based Approach
+2006, CLSMAS, A family of graphical-game-based algorithms for distributed constraint optimization problems
+2011, KE Review, A unifying framework for iterative approximate best-response algorithms for distributed constraint optimization problems
+（3）K-optimal algorithms
+2005, AAMAS, How local is that optimum? k-optimality for dcop
+2007, IJCAI, Quality guarantees on k-optimal solutions for distributed constraint optimization problems
+2007, DCR, KOPT: Distributed DCOP Algorithm for Arbitrary K-optima with Monotonically Increasing Utility 
+2008, AAMAS, On k-optimal distributed constraint optimization algorithms: New bounds and algorithms
+2008, AI Magazine, Solving multiagent networks using distributed constraint optimization
+2011, AAMAS, Quality guarantees for region optimal DCOP algorithms
+（4）Asynchronous local search algorithm
+2010, AAMAS, DALO: Asynchronous Algorithms for Approximate Distributed Constraint Optimization with Quality Bounds
+（5）	Others
+2017, AAMAS, A Partial Decision Scheme for Local Search Algorithms for Distributed Constraint Optimization Problems
+2017, AAAI, CoCoA: A non-iterative approach to a local search (A) DCOP solver
+2018, CP, A large neighboring search schema for multi-agent optimization
+2.4.4 Confidence bounds
+2011, DCR, On message-passing, MAP estimation in graphical models and DCOPs
+2012, AAAI, Duct: An upper confidence bound approach to distributed constraint optimization problems
+2014, CP, GD-Gibbs: A GPU-based Sampling Algorithm for Solving Distributed Constraint Optimization Problems
+2016, CP, A Dynamic Programming-Based MCMC Framework for Solving DCOPs with GPUs
+2019, JAIR, Distributed gibbs: A linear-space sampling-based dcop algorithm
+2.4.5 Deep learning-based
+2021, IJCAI, Deep Bucket Elimination
+2021, NeuroBE: NN Approximations to Bucket Elimination
+2021, IJCAI, Neural regret-matching for distributed constraint optimization problems
+2022, AAAI, Pretrained cost model for distributed constraint optimiza- tion problems
+2.4.6 Other approaches
+2012, Applied Soft Computing, The power of ants in solving Distributed Constraint Satisfaction Problems
+2013, 模式识别与人工智能, 一种动态分布式约束优化问题协同求解算法
+2018, AAAI, ACO_DCOP-An Ant-based Algorithm to Solve Distributed Constraint Optimization Problems
+2019, JAIR, Using Collective Behavior of Coupled Oscillators for Solving DCOP
+2020, JAAMAS, A genetic algorithm based framework for local search algorithms for distributed constraint optimization problems 
+3 DCOP Extension
+3.1 ADCOP(Asymmetric Distributed Constraint Optimization Problems)
+3.1.1 ADCOP算法分类
+ 
+3.1.2	转换为DCOP问题
+2004, AAMAS, PEVA-DCOP: Taking DCOP to the RealWorld: Efficient Complete Solutions for Distributed Multi-Event Scheduling
+2008, JAIR, M-DPOP: Faithful Distributed Implementations of Efficient Social Choice Problems
+2006, AAMAS, MDPOP: Faithful distributed implementation of efficient social choice problems
+3.1.3 ADCOP算法
+完备算法
+2020, JAAMAS, A hybrid tree-based algorithm to solve asymmetric distributed constraint optimization problems[J]. Autonomous Agents and Multi-Agent Systems, 2020, 34(2): 1-42.
+2019, IJCAI, AsymDPOP: complete inference for asymmetric distributed constraint optimization problems
+非完备算法
+2013, JAIR, Asymmetric Distributed Constraint Optimization Problems[J]. Journal of Artificial Intelligence Research, 2013, 47: 613-647.
+2020, JAAMAS, Applying Max-sum to asymmetric distributed constraint optimization problems
+3.1.4 Others
+2009, Constraint, Distributed constraint satisfaction with partially known constraints[J]. Constraints, 2007, Applied Soft Computing, Distributed constraint satisfaction, restricted recombination, and genetic protocols[J]., 2007, 7 (3) :1005-1011.
+2018, PAIMAS, A Study of Relaxation Approaches for Asymmetric Constraint Optimization Problems
+3.2 Incomplete DCOP
+2017, CP, Preference elicitation for DCOPs
+2019, AAMAS, Parameterized heuristics for incomplete weighted CSPs with elicitation costs
+2021, AAMAS, Branch-and-bound heuristics for incomplete DCOPs
+2021, CP, Incomplete Distributed Constraint Optimization Problems: Model, Algorithms, and Heuristics
+3.3 C-DCOP 
+2020, AAMAS, New algorithms for continuous distributed constraint optimization problems
+2021, AAMAS, Local Search Based Approach to Solve Continuous DCOPs
+4 DCOP Application
+4.1 Power System
+2008, JIESP, Distributed Constraint Optimization Applications in Power Networks
+2009, AAMAS, Distributed constraint optimization with structured resource constraints
+2012, Optimal decentralised dispatch of embedded generation in the smart grid
+2013, DCR, Solving customer-driven microgrid optimization problems as DCOPs
+2013, IEEE SG, Privacy-Preserving Energy Scheduling in Microgrid Systems
+2017, Electric Power Systems Research, A distributed constraint satisfaction approach for reactive power sharing in microgrids
+2019, EPIA, Distributed Constrained Optimization Towards Effective Agent-Based Microgrid Energy Resource Management
+4.2 Task Scheduling
+2004, AAMAS, Taking DCOP to the real world: Efficient complete solutions for distributed multi-event scheduling
+2007, IJCAI, On Modeling Multiagent Task Scheduling as a Distributed Constraint Optimization Problem
+2012, JNCA, Distributed constraint optimization with MULBS: A case study on collaborative meeting scheduling
+2019, Distributed Constrained Optimization Towards Effective Agent-Based Microgrid Energy Resource Management
+2020, PRIMAS, Decentralized Constraint Optimization in Composite Observation Task Allocation to Mobile Sensor Agents
+2022, AAMAS, Trajectory Coordination based on Distributed Constraint Optimization Techniques in Unmanned Air Traffic Management
+4.3 Sensor networks
+2005, AI, Distributed stochastic search and distributed breakout: properties, comparison and applications to constraint optimization problems in sensor networks
+2005, AI, Sensor networks and distributed CSP: communication, computation and complexity
+2011, The Computer Journal, A survey on sensor networks from a multiagent perspective
+2014, JAAMAS, Agent-based decentralised coordination for sensor networks using the max-sum algorithm
+2013, Science of Computer Programming, Distributed constraint optimisation for resource limited sensor networks
+2013, Computer Communications, Target to sensor allocation: A hierarchical dynamic Distributed Constraint Optimization approach
+2005, JAAMAS, Distributed constraint optimization for teams of mobile sensing agents
+2021, ICAAI, A Study on Applying Decentralized Constraint Optimization to Mobile Sensor Teams with Range Sensors
+4.4 Traffic management
+2013, AAMAS, iCO2: multi-user eco-driving training environment based on distributed constraint optimization
+2019, Distributed coordination for collision avoidance of multiple ships considering ship maneuverability
+2020, thesis (Université de Lyon), Decentralised congestion control mechanisms for autonomous vehicles using distributed constraints optimisation
+4.5 Resource management
+2014, JWIAS, Dynamic multiagent load balancing using distributed constraint optimization techniques
+2021, ICAART, A New Parking Space Allocation System based on a Distributed Constraint Optimization Approach
+4.6 Smart home
+2017, AAAI, A multiagent system approach to scheduling devices in smart homes
+2017, AAMAS, A realistic dataset for the smart home device scheduling problem for DCOPs
+2017, A Preliminary Study on Preference Elicitation in DCOPs for Scheduling Devices in Smart Buildings.
+2017, IA, Distributed multi-agent optimization for smart grids and home automation
+2018, Distributed Constraint Optimization for the Internet-of-Things
+2019, Autonomous and Spontaneous Coordination between Smart Connected Objects
+4.7 Others
+2017, SAC, An asynchronous distributed constraint optimization approach to multi-robot path planning with complex constraints
+2019, Robot World Cup, An Approach for Distributed Constraint Optimization Problems in Rescue Simulation
+2019, PRIMA, New distributed constraint reasoning algorithms for load balancing in edge computing
+2020, DPSW@ECAI, Assessing performances of incomplete dcop solvers on hetnet user association problems
+2021, CISS, Distributed Constraint Optimization Problem for Coordinated Response of Unmanned Aerial Vehicles and Ground Vehicles
+5 Books and Theses
+5.1 Books
+MULTIAGENT SYSTEMS
+Cooperative Control of Distributed Multi-Agent Systems
+Distributed Search by Constraint Agents
+Artificial Intelligence: A Modern Approach (Chapter 1-6)
+5.2 theses
+2003, USC, Distributed constraint optimization for multiagent systems, USA
+2004, UMA, A mediation-based approach to cooperative, distributed problem solving, USA
+2006, ISTC, Multi-Agent Planning and Coordination Under Resource Constraints (n-ary Constraints), Italy
+2007, Harvard, Improving Privacy in Distributed Constraint Optimization, USA
+2007, EPFL, A CLASS OF ALGORITHMS FOR DISTRIBUTED CONSTRAINT OPTIMIZATION, Switzerland
+2007, USC, Balancing local resources and global goals in multiply-constrained DCOP (the multiply-constrained DCOP (MC-DCOP)), USA
+2009, Delaware, Efficient coordination techniques for non-deterministic multi-agent systems using distributed constraint optimization, USA
+2010, USC, SPEEDING UP DISTRIBUTED CONSTRAINT OPTIMIZATION SEARCH ALGORITHMS, USA
+2010, BGU, Information Sharing in Distributed Problem Solving
+2010, Southampton, Decentralised coordination of information gathering agents (Max-sum for the Multi-Agent Information Gathering Problem), UK
+2010, Southampton, Multi-objective Decentralised Coordination for Teams of Robotic Agents, UK 2011, EPFL, DISTRIBUTED CONSTRAINT OPTIMIZATION: PRIVACY GUARANTEES AND STOCHASTIC UNCERTAINTY, Switzerland
+2011, Barcelona, Exploiting the structure of Distributed Constraint Optimization Problems to assess and bound coordinated actions in Multi-Agent Systems (Action-GDL, Divide-and-Coordinate (DaC) and Region Optimality), Spain
+2012, Southampton, Theory and practice of coordination algorithms exploiting the generalised distributive law (GDL for partially ordered distributed constraint optimisation problems(PO-DCOPs)), UK
+2012, Barcelona, Distributed Constraint Optimization Related with Soft Arc Consistency (ADOPT(k) and BnB-ADOPT+), Spain
+2012, BGU, Distributed Search by Agents with Personal Preferences (ADCOP), Israel
+2013, BUG, Distributed Constraint Reasoning from Utilitarianism to Fairnes, Israel
+2014, Southampton, Decentralised coordination of smart distribution networks using message passing (DCOP for Power System), UK
+2014, Syracuse, Coalition formation for distributed constraint optimization problems (Virtual Structure Reduction), USA
+2014, IIIA, Scaling DCOP algorithms for cooperative multi-agent coordination, Spain
+2015, UMA, Application of techniques for MAP estimation to distributed constraint optimization problem, USA
+2018, Southampton, Speeding up GDL-based distributed constraint optimisation algorithms in cooperative multi-agent systems, UK
