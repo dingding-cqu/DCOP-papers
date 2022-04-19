@@ -1,0 +1,249 @@
+Ten Challenges Redux: Recent Progress in Propositional Reasoning and Search
+
+Automated Mechanism Design: A New Application Area for Search Algorithms .
+
+Languages versus Packages for Constraint Problem Solving . 
+
+Constraint Patterns
+
+Control Abstractions for Local Search
+
+Improved Algorithms for Counting Solutions in Constraint Satisfaction Problems
+
+Boosting Chaff’s Performance by Incorporating CSP Heuristics
+
+Efficient CNF Encoding of Boolean Cardinality Constraints
+
+A Two-Stage Hybrid Algorithm for Pickup and Delivery Vehicle Routing Problems with Time Windows
+
+Solving Finite Domain Constraint Hierarchies by Local Consistency and Tree Search
+
+hibiscus: A Constraint Programming Application to Staff Scheduling in Health Care
+
+Constraint-Based Optimization with the Minimax Decision Criterion
+
+An Algebraic Approach to Multi-sorted Constraints
+
+Periodic Constraint Satisfaction Problems: Polynomial-Time Algorithms
+
+Box Constraint Collections for Adhoc Constraints
+
+Propagation Redundancy in Redundant Modelling
+
+Soft Constraints: Complexity and Multimorphisms
+
+Constraint Satisfaction Differential Problems
+
+A Wealth of SAT Distributions with Planted Assignments
+
+Redundant Modeling for the QuasiGroup Completion Problem
+
+Open Constraint Optimization
+
+Constraints for Breaking More Row and Column Symmetries .
+
+Generic SBDD Using Computational Group Theory
+
+Using Stochastic Local Search to Solve Quantified Boolean Formulae
+
+Solving Max-SAT as Weighted CSP
+
+Constraint Reasoning over Strings
+
+Tractability by Approximating Constraint Languages
+
+A Hybrid Constraint Programming and Semidefinite Programming Approach for the Stable Set Problem
+
+A Constraint-Aided Conceptual Design Environment for Autodesk Inventor
+
+Fast Bound Consistency for the Global Cardinality Constraint
+
+Propagating N-Ary Rigid-Body Constraints
+
+Solving ‘Still Life’ with Soft Constraints and Bucket Elimination
+
+Exploiting Multi directionality in Coarse-Grained Arc Consistency Algorithms
+
+Local-Search Techniques for Propositional Logic Extended with Cardinality Constraints
+
+Discrepancy-Based Additive Bounding for the AllDifferent Constraint
+
+A Synthesis of Constraint Satisfaction and Constraint Solving
+
+Maintaining Longest Paths Incrementally
+
+Resolution and Constraint Satisfaction
+
+Generating High Quality Schedules for a Spacecraft Memory Downlink Problem
+
+Symmetry Breaking Using Stabilizers
+
+An Efficient Bounds Consistency Algorithm for the Global Cardinality Constraint
+
+Solving Existentially Quantified Constraints with One Equality and Arbitrarily Many Inequalities
+
+Using Constraint Programming to Solve the Maximum Clique Problem
+
+Greater Efficiency for Conditional Constraint Satisfaction
+
+Incremental Computation of Resource-Envelopes in Producer-Consumer Models
+
+Approximated Consistency for Knapsack Constraints
+
+Cost-Based Filtering for Shorter Path Constraints
+
+Bounded Backtracking for the Valued Constraint Satisfaction Problems
+
+Consistency and Propagation with Multiset Constraints: A Formal Viewpoint
+
+Pruning while Sweeping over Task Intervals
+
+Improving Backtrack Search for Solving the TCSP
+
+Certainty Closure: A Framework for Reliable Constraint Reasoning with Uncertainty
+
+clp(pdf(y)): Constraints for Probabilistic Reasoning in Logic Programming
+
+To Be or Not to Be . . . a Global Constraint
+
+Constraint Programming for Modelling and Solving Modal Satisfiability
+
+Distributed Forward Checking
+
+A New Class of Binary CSPs for which Arc-Consistency
+
+Is a Decision Procedure
+
+Semi-automatic Modeling by Constraint Acquisition
+
+Structured vs. Unstructured Large Neighborhood Search: A Case Study on Job-Shop Scheduling Problems with Earliness and Tardiness Costs
+
+Using the Breakout Algorithm to Identify Hard and Unsolvable Subproblems
+
+Toy(FD): Sketch of Operational Semantics
+
+Scheduling in the Face of Uncertain Resource Consumption and Utility
+
+Supertree Construction with Constraint Programming
+
+(In)Effectiveness of Look-Ahead Techniques in a Modern SAT Solver
+
+Reduce and Assign: A Constraint Logic Programming and Local Search
+
+Integration Framework to Solve Combinatorial Search Problems
+
+A Canonicity Test for Configuration
+
+Improved Algorithms for Max-restricted Path Consistency
+
+CP-IP Techniques for the Bid Evaluation in Combinatorial Auctions
+
+A Two-Level Search Strategy for Packing Unequal Circles into a Circle Container
+
+Unrestricted Nogood Recording in CSP Search
+
+Constraints over Ontologies
+
+Using Constraints for Exploring Catalogs
+
+Intermediate (Learned) Consistencies
+
+Semi-independent Partitioning: A Method for Bounding the Solution to COP’s
+
+Boosting as a Metaphor for Algorithm Design
+
+An Efficient Filtering Algorithm for Disjunction of Constraints
+
+INCOP: An Open Library for INcomplete Combinatorial Optimization
+
+A Composition Algorithm for Very Hard Graph 3-Colorability Instances
+
+Efficient Representation of Discrete Sets for Constraint Programming
+
+Applying Interchangeability Techniques to the Distributed Breakout Algorithm
+
+Symmetry Breaking in Graceful Graphs
+
+Tree Local Search
+
+A SAT-Based Approach to Multiple Sequence Alignment
+
+Maintaining Dominance Consistency
+
+Terminating Decision Algorithms Optimally
+
+Scene Reconstruction Based on Constraints: Details on the Equation System Decomposition
+
+A New Approach to Solving SAT-Encoded Binary CSPs
+
+FeReRA: A Multi-agent Approach to Constraint Satisfaction
+
+Semantic Decomposition for Solving Distance Constraints
+
+Using Constraint Programming and Simulation for Execution Monitoring and On-Line Rescheduling with Uncertainty
+
+On the Enhancement of the Informed Backtracking Algorithm Extending CLP with Metaheuristics
+
+Self Configuring Constraint Programming Systems
+
+Interactive Tradeoff Generation
+
+Introducing esra, a Relational Language for Modelling Combinatorial Problems
+
+Abstracting Constraints Using Constraints
+
+Sensitivity Analysis in CSPs
+
+Solution Stability in Constraint Satisfaction Problems
+
+distn: An Euclidean Distance Global Constraint
+
+Algorithmic Mechanism Design and Constraints
+
+Preference Constraints: New Global Soft Constraints Dedicated to Preference Binary Relations
+
+Optimising the Representation and Evaluation of Semiring Combination Constraints
+
+Symmetry Breaking Ordering Constraints
+
+Observation of Constraint Programs
+
+Search Programming
+
+Exploiting Microstructure in CSPs
+
+Using Case-Based Reasoning to Write Constraint Programs
+
+Reformulation Techniques for a Class of Permutation Problems
+
+NuSBDS: An Easy to Use Symmetry Breaking System
+
+Interactivity in Constraint Programming
+
+Useful Explanations
+
+Teacher and Learner Profiles for Constraint Acquisition
+
+Comparison of Symmetry Breaking Methods
+
+Improved Branch and Bound Algorithms for Max-2-SAT and Weighted Max-2-SAT
+
+Search for Mathematical Objects
+
+Explanations for Global Constraints
+
+Watching Clauses in Quantified Boolean Formulae Distributed Constraint-Based Railway Simulation
+
+Dynamic Step Size Adjustment in Iterative Deepening Search
+
+Learning Good Variable Orderings
+
+An Adaptive Controller for Real-Time Resolution of the Vehicle Routing Problem
+
+α-Dynamic Controllability of Simple Temporal Problems with Preferences and Uncertainty
+
+Computing Explanations for Global Scheduling Constraints
+
+Restart Strategies: Analysis and Simulation
+
+OpenSolver: A Coordination-Enabled Abstract Branch-and-Prune Tree Search Engine
